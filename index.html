@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>note-taking App</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Note-Taking App</h1>
+    </header>
+    <main class="main">
+      <section class="main__notes-add">
+        <form class="notes-add__form" id="notes-add__form">
+          <div class="notes-add__form__row">
+            <label class="notes-add__form__label" for="note-text"
+              >Add your Note:</label
+            >
+            <textarea
+              name="note"
+              id="note-text"
+              cols="40"
+              rows="5"
+              maxlength="300"
+              class="notes-add__form__box"
+            ></textarea>
+          </div>
+          <div class="notes-add__form__row">
+            <label class="notes-add__form__label" for="note-color"
+              >Pick a note color</label
+            >
+            <select
+              class="notes-add__form__box"
+              name="note-color"
+              id="note-color"
+            >
+              <option value="">Select a Color</option>
+              <option value="tomato">Red</option>
+              <option value="coral">Coral</option>
+              <option value="pink">Pink</option>
+              <option value="aqua">Aqua</option>
+              <option value="teal">Teal</option>
+            </select>
+          </div>
+          <div class="notes-add__form__row">
+            <input
+              class="notes-add__form__button"
+              type="submit"
+              value="Add Note"
+            />
+          </div>
+        </form>
+      </section>
+      <section class="notes-list" id="notes-list"></section>
+      <section class="notes-messages">
+        <p class="notes-messages__text">
+          Please add some text and pick a color to create a note.
+        </p>
+      </section>
+      <script src="./index.js"></script>
+    </main>
+  </body>
+</html>

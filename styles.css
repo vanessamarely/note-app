@@ -1,0 +1,88 @@
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  padding: 1em;
+  text-align: center;
+}
+
+.header__title {
+  color: coral;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.main {
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.main__notes-add {
+  border: 1px solid lightcoral;
+  border-radius: 1em;
+  padding: 2em;
+}
+
+.notes-add__form__row {
+  margin: 1em 0;
+}
+
+.notes-add__form__label {
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.notes-add__form__box {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.notes-add__form__button {
+  background-color: coral;
+  border: 0;
+  border-radius: 1em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+
+.note-card {
+  background: tomato;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.note-card__text {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+.note-card__edit {
+  display: none;
+}
+
+.note-card__button {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 1em;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+}
+
+.notes-messages {
+  border-radius: 2em;
+  border: 1px solid tomato;
+  display: none;
+  margin: 2em;
+  text-align: center;
+}
+
+.notes-messages__text {
+  font-size: 2em;
+  font-weight: bold;
+}
